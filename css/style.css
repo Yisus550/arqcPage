@@ -212,19 +212,26 @@ nav {
 .benefits {
     width: 100%;
     height: auto;
-    /* display: flex;
-    justify-content: center; */
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
     align-items: center;
     padding-top: 30px;
     text-align: center;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 .benefit p {
-    width: 300px;
-    /* transform: translateX(-22%); */
+    width: calc(90vw / 3);
+}
+
+@media (max-width: 767px) {
+    .benefits {
+        display: grid;
+        place-content: center;
+        row-gap: 45px;
+    }
+    .benefit p {
+        width: 300px;
+    }
 }
 
 .testimonials {
@@ -333,6 +340,10 @@ nav {
     display: grid;
     place-content: center;
     gap: 30px;
+}
+
+.action-call h1 {
+    text-align: center;
 }
 
 .action-call button {
