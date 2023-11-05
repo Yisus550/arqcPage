@@ -88,15 +88,17 @@ nav {
     }
 }
 
-.header {
+.sec {
     width: 100%;
     height: auto;
+    gap: 30px;
+    padding: 45px;
+}
+
+.header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 30px;
-    row-gap: 30px;
-    padding: 45px;
     background-color: #f0f0f0;
 }
 
@@ -167,8 +169,6 @@ nav {
 }
 
 .info {
-    width: 100%;
-    height: auto;
     display: flex;
     justify-content: center;
     /* display: grid;
@@ -179,7 +179,6 @@ nav {
 
 .usuall-problem {
     width: 80vw;
-    min-height: 40vh;
     display: grid;
     place-content: center;
     /* display: flex;
@@ -187,19 +186,13 @@ nav {
     flex-direction: column; */
     align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    padding: 45px;
-    gap: 30px;
 }
 
 .solution-problem {
-    width: 100%;
-    min-height: 40vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 45px;
-    gap: 30px;
     background-color: #f0f0f0;
 }
 
@@ -235,9 +228,6 @@ nav {
 }
 
 .testimonials {
-    width: 100%;
-    height: auto;
-    padding: 45px;
     display: flex;
     /* justify-items: center;
     align-items: center; */
@@ -277,9 +267,6 @@ nav {
 }
 
 .characteristics {
-    width: 100%;
-    height: 350px;
-    padding: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -302,14 +289,10 @@ nav {
 }
 
 .usual-questions {
-    width: 100%;
-    height: auto;
-    padding: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
 }
 
 .questions-table {
@@ -334,12 +317,8 @@ nav {
 }
 
 .action-call {
-    width: 100%;
-    height: auto;
-    padding: 45px;
     display: grid;
     place-content: center;
-    gap: 30px;
 }
 
 .action-call h1 {
