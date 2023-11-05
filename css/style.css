@@ -33,6 +33,7 @@ img {
 nav {
     position: sticky;
     top: 0;
+    z-index: 99999;
 }
 
 .simple-contact-info {
