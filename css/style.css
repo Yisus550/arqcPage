@@ -27,7 +27,6 @@ h4, h5, h6 {
 
 img {
     width: 80vw;
-    max-width: 500px;
     aspect-ratio: 16/9;
 }
 
@@ -93,6 +92,10 @@ nav {
     height: auto;
     gap: 30px;
     padding: 45px;
+}
+
+.sec img {
+    max-width: 500px;
 }
 
 .header {
