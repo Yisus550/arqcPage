@@ -241,7 +241,7 @@ nav {
     }
 }
 
-.testimonials {
+.cards {
     display: flex;
     /* justify-items: center;
     align-items: center; */
@@ -257,13 +257,17 @@ nav {
     gap: 30px;
 }
 
-.testimonial-card {
+.card-item {
     height: 300px;
     padding: 15px;
     align-items: center;
     flex-direction: column;
     background-color: #f0f0f0;
     text-align: left;
+}
+
+.card-item p, .card-item h2 {
+    margin-bottom: 1rem;
 }
 
 .testimonial {
@@ -396,6 +400,14 @@ nav {
     width: 100%;
     object-fit: cover;
     filter: brightness(0.6);
+}
+
+.services .cards-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.services .card-item {
+    height: auto;
 }
 
 footer {
