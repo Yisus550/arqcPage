@@ -403,7 +403,11 @@ nav {
 }
 
 .services .cards-container {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 350px));
+    gap: 20px;
 }
 
 .services .card-item {
