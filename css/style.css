@@ -36,6 +36,10 @@ nav {
     z-index: 99999;
 }
 
+button {
+    background-color: #ff572e;
+}
+
 .simple-contact-info {
     width: 100%;
     height: 35px;
@@ -60,9 +64,14 @@ nav {
     font-weight: 900;
 }
 
+.navbar a {
+    color: #f0f0f0;
+}
+
 .collapse {
     width: 75%;
     height: auto;
+    color: #f0f0f0;
 }
 
 .collapse-links li {
@@ -153,7 +162,7 @@ nav {
         width: 100%;
         height: 100vh;
         display: flex;
-        background-color: #f0f0f0;
+        background-color: #758cb1;
         position: fixed;
         top: 115px;
         right: -150%;
@@ -266,7 +275,7 @@ nav {
     padding: 15px;
     align-items: center;
     flex-direction: column;
-    background-color: #f0f0f0;
+    background-color: #758cb1;
     text-align: left;
 }
 
