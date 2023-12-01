@@ -508,7 +508,7 @@ input, textarea {
 }
 
 .contact-form {
-    width: 90vw;
+    width: 60vw;
     display: flex;
     flex-direction: column;
 }
