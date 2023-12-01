@@ -502,7 +502,6 @@ input, textarea {
 
 .contact {
     display: grid;
-    /* flex-direction: column; */
     margin: 45px;
     place-content: center;
 }
@@ -510,11 +509,8 @@ input, textarea {
 .contact-form {
     width: 60vw;
     display: flex;
+    justify-content: center;
     flex-direction: column;
-}
-
-.from-1 {
-    /* margin: 5px; */
 }
 
 aside {
@@ -527,22 +523,47 @@ aside {
     border-left: 5px solid rgb(202, 202, 31);
 }
 
+.asaid-txt {
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+@media (max-width: 1023px) {
+    .asaid-txt {
+        font-size: 1rem;
+    }
+}
+
+.input {
+    max-width: 60%;
+    min-width: 200px;
+    height: 40px;
+}
+
 .input-t {
-    width: 40%;
+    max-width: 60%;
+    min-width: 200px;
     height: 40px;
     padding: 5px;
     margin: 5px;
     border: 1px solid gray;
 }
 
-.textarea {
-    width: 40%;
+.textarea-form {
+    max-width: 60%;
+    min-width: 200px;
     margin: 5px;
     padding: 5px;
 }
 
 .input-t:hover, .input-t:focus, .textarea:hover, .textarea:focus {
     box-shadow: 0 0 3px gray;
+}
+
+.btn-submit {
+    width: 80px;
+    height: 40px;
+    margin: 5px;
 }
 
 footer {
