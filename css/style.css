@@ -423,7 +423,7 @@ input, textarea {
     display: flex;
 }
 
-.wide-picture img {
+.wide-picture-img {
     width: 100%;
     object-fit: cover;
     filter: brightness(0.6);
@@ -454,7 +454,7 @@ input, textarea {
     position: fixed;
 }
 
-.primary-bg img {
+.primary-bg-img {
     width: calc(100% + 10px);
     height: auto;
     object-fit: cover;
