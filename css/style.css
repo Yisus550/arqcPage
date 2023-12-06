@@ -76,6 +76,10 @@ input, textarea {
     color: #f0f0f0;
 }
 
+.logo-nav {
+    width: 60%;
+}
+
 .collapse {
     width: 75%;
     height: auto;
