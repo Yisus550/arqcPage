@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.sec', { duration: 1000, distance:'500px'});

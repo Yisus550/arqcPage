@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>Servicios</title>
 </head>
 <body>
@@ -32,7 +34,7 @@
                     <li><a href="about.html">Quienes somos</a></li>
                     <li><a href="services.html">Servicios</a></li>
                     <li><a href="projects.html">Proyectos</a></li>
-                    <li><a href="">Maquinaria</a></li>
+                    <li><a href="maquinaria.html">Maquinaria</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </div>
@@ -47,41 +49,25 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active c-item" data-bs-interval="4000">
-            <img src="./img/photo4.png" class="d-block w-100 c-img" alt="...">
+            <img src="./img/webp/photo6.webp" class="d-block w-100 c-img" alt="...">
           </div>
           <div class="carousel-item c-item" data-bs-interval="4000">
-            <img src="./img/photo5.png" class="d-block w-100 c-img" alt="...">
+            <img src="./img/webp/photo7.webp" class="d-block w-100 c-img" alt="...">
           </div>
           <div class="carousel-item c-item" data-bs-interval="4000">
-            <img src="./img/photo6.png" class="d-block w-100 c-img" alt="...">
+            <img src="./img/webp/photo8.webp" class="d-block w-100 c-img" alt="...">
           </div>
         </div>
     </section>
 
     <main class="info services">
-        <section class="cards sec sec-1">
-            <div class="main-services cards-container services">
-                <articles class="service card-item">
-                    <h2>SERVICIO 1</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam! Corporis aut blanditiis, accusamus hic soluta quae.</p>
-                    <i class="bi bi-award-fill"></i>
-                </articles>
-                <articles class="service card-item">
-                    <h2>SERVICIO 2</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam! Corporis aut blanditiis, accusamus hic soluta quae.</p>
-                    <i class="bi bi-award-fill"></i>
-                </articles>
-                <articles class="service card-item">
-                    <h2>SERVICIO 3</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam! Corporis aut blanditiis, accusamus hic soluta quae.</p>
-                    <i class="bi bi-award-fill"></i>
-                </articles>
-            </div>
-        </section>
-
         <section class="cards sec sec-1 cards-container">
             <article class="card" style="width: 18rem;">
-                <img src="./img/photo1.png" class="card-img-top" alt="">
+                <picture>
+                    <source srcset="/img/avif/photo7.avif" type="image/avif">
+                    <source srcset="/img/webp/photo7.webp" type="image/webp">
+                    <img src="/img/jpg/photo7.jpg" alt="img1" class="card-img-top">
+                </picture>
                 <div class="card-body">
                     <h5 class="card-title">SERVICIO 1</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam!</p>
@@ -90,7 +76,11 @@
             </article>
 
             <article class="card" style="width: 18rem;">
-                <img src="./img/photo2.png" class="card-img-top" alt="">
+                <picture>
+                    <source srcset="/img/avif/photo8.avif" type="image/avif">
+                    <source srcset="/img/webp/photo8.webp" type="image/webp">
+                    <img src="/img/jpg/photo8.jpg" alt="img1" class="card-img-top">
+                </picture>
                 <div class="card-body">
                     <h5 class="card-title">SERVICIO 2</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam!</p>
@@ -99,7 +89,50 @@
             </article>
 
             <article class="card" style="width: 18rem;">
-                <img src="./img/photo3.png" class="card-img-top" alt="">
+                <picture>
+                    <source srcset="/img/avif/photo9.avif" type="image/avif">
+                    <source srcset="/img/webp/photo9.webp" type="image/webp">
+                    <img src="/img/jpg/photo9.jpg" alt="img1" class="card-img-top">
+                </picture>
+                <div class="card-body">
+                    <h5 class="card-title">SERVICIO 3</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam!</p>
+                    <a href="" class="btn btn-primary">Saber mas</a>
+                </div>
+            </article>
+
+            <article class="card" style="width: 18rem;">
+                <picture>
+                    <source srcset="/img/avif/photo10.avif" type="image/avif">
+                    <source srcset="/img/webp/photo10.webp" type="image/webp">
+                    <img src="/img/jpg/photo10.jpg" alt="img1" class="card-img-top">
+                </picture>
+                <div class="card-body">
+                    <h5 class="card-title">SERVICIO 1</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam!</p>
+                    <a href="" class="btn btn-primary">Saber mas</a>
+                </div>
+            </article>
+
+            <article class="card" style="width: 18rem;">
+                <picture>
+                    <source srcset="/img/avif/photo11.avif" type="image/avif">
+                    <source srcset="/img/webp/photo11.webp" type="image/webp">
+                    <img src="/img/jpg/photo11.jpg" alt="img1" class="card-img-top">
+                </picture>
+                <div class="card-body">
+                    <h5 class="card-title">SERVICIO 2</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam!</p>
+                    <a href="" class="btn btn-primary">Saber mas</a>
+                </div>
+            </article>
+
+            <article class="card" style="width: 18rem;">
+                <picture>
+                    <source srcset="/img/avif/photo12.avif" type="image/avif">
+                    <source srcset="/img/webp/photo12.webp" type="image/webp">
+                    <img src="/img/jpg/photo12.jpg" alt="img1" class="card-img-top">
+                </picture>
                 <div class="card-body">
                     <h5 class="card-title">SERVICIO 3</h5>
                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta maxime officia sed labore, vero asperiores tempora fugit reprehenderit repudiandae et quis magnam!</p>
@@ -107,16 +140,13 @@
                 </div>
             </article>
         </section>
-        
-        <section class="all-services">
-
-        </section>
     </main>
 
-    <footer>
+    <footer class="sec">
         
     </footer>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/ScrollRevel.js"></script>
 </body>
 </html>

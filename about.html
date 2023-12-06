@@ -8,16 +8,18 @@
     
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
     
     <title>Quienes somos</title>
 </head>
 <body>
-    <head>
+    <header>
         <div class="simple-contact-info">
             <p>info@correo.com</p>
             <p>+52 111 222 3344</p>
         </div>
-    </head>
+    </header>
 
     <nav>
         <div class="navbar" >
@@ -31,7 +33,7 @@
                     <li><a href="about.html">Quienes somos</a></li>
                     <li><a href="services.html">Servicios</a></li>
                     <li><a href="projects.html">Proyectos</a></li>
-                    <li><a href="">Maquinaria</a></li>
+                    <li><a href="maquinaria.html">Maquinaria</a></li>
                     <li><a href="contact.html">Contacto</a></li>
                 </ul>
             </div>
@@ -46,20 +48,24 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active c-item" data-bs-interval="4000">
-            <img src="./img/photo4.png" class="d-block w-100 c-img" alt="...">
+            <img src="./img/webp/photo1.webp" class="d-block w-100 c-img" alt="...">
           </div>
           <div class="carousel-item c-item" data-bs-interval="4000">
-            <img src="./img/photo5.png" class="d-block w-100 c-img" alt="...">
+            <img src="./img/webp/photo2.webp" class="d-block w-100 c-img" alt="...">
           </div>
           <div class="carousel-item c-item" data-bs-interval="4000">
-            <img src="./img/photo6.png" class="d-block w-100 c-img" alt="...">
+            <img src="./img/webp/photo3.webp" class="d-block w-100 c-img" alt="...">
           </div>
         </div>
       </section>
     
     <main class="info">
         <article class="section-1 sec sec-2">
-            <img src="/img/photo2.png" alt="img">
+            <picture>
+                <source srcset="/img/avif/photo3.avif" type="image/avif">
+                <source srcset="/img/webp/photo3.webp" type="image/webp">
+                <img src="/img/jpg/photo3.jpg" alt="img1">
+            </picture>
             <div>
                 <h2>QUIENES SOMOS</h2>
                 <br/>
@@ -73,12 +79,16 @@
                 <br/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda odit dolor vero! A, incidunt? Ipsum voluptatibus, aut cupiditate quis provident quos ex pariatur voluptas deserunt vitae aperiam debitis hic saepe. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat dolorem sed voluptatum consequatur accusamus modi nulla eligendi? Possimus nesciunt, incidunt aliquam iste unde quidem non aliquid? Sed nulla eaque veritatis.</p>
             </div>
-            <img src="/img/photo3.png" alt="img">
+            <picture>
+                <source srcset="/img/avif/photo4.avif" type="image/avif">
+                <source srcset="/img/webp/photo4.webp" type="image/webp">
+                <img src="/img/jpg/photo4.jpg" alt="img1">
+            </picture>
         </article>
 
         <article class="section-2">
             <div class="wide-picture">
-                <img src="/img/photo7.png" alt="img">
+                <img class="wide-picture-img" src="/img/jpg/photo5.jpg" alt="img1">
             </div>
             <div class="text-overhead">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda odit dolor vero! A, incidunt? Ipsum voluptatibus, aut cupiditate quis provident quos ex pariatur voluptas deserunt vitae aperiam debitis hic saepe.</p>
@@ -86,7 +96,11 @@
         </article>
 
         <article class="section-1 sec sec-2">
-            <img src="/img/photo8.png" alt="img">
+            <picture>
+                <source srcset="/img/avif/photo6.avif" type="image/avif">
+                <source srcset="/img/webp/photo6.webp" type="image/webp">
+                <img src="/img/jpg/photo6.jpg" alt="img1">
+            </picture>
             <div>
                 <h2>QUIENES SOMOS</h2>
                 <br/>
@@ -95,10 +109,11 @@
         </article>
     </main>
 
-    <footer>
+    <footer class="sec">
         
     </footer>
 
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/ScrollRevel.js"></script>
 </body>
 </html>
