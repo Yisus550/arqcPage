@@ -83,7 +83,7 @@ input, textarea {
 .collapse {
     width: 75%;
     height: auto;
-    color: #f0f0f0;
+    color: #ffffff;
 }
 
 .collapse-links li {
@@ -92,7 +92,7 @@ input, textarea {
 }
 
 .collapse-links a {
-    color: #c8c8c8;
+    color: #ffffff;
 }
 
 #check-collapse, .hamburguer {
