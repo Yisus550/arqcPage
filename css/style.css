@@ -388,6 +388,11 @@ input, textarea {
     filter: brightness(0.6);
 }
 
+.c-img-transition {
+    transform: scale(1.8);
+    transition: all ease 4000ms;
+}
+
 @media (min-width: 870px) {
     .c-img {
         width: 100%;
